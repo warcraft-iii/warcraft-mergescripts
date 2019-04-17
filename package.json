@@ -1,6 +1,6 @@
 {
   "name": "warcraft-mergescripts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Warcraft III map script merge tool",
   "main": "dist/lib.js",
   "bin": "bin/cmd.js",
