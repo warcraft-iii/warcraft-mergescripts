@@ -2,7 +2,7 @@
   "name": "warcraft-mergescripts",
   "version": "0.0.4",
   "description": "A Warcraft III map script merge tool",
-  "main": "dist/index.js",
+  "main": "dist/lib.js",
   "bin": "bin/cmd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
