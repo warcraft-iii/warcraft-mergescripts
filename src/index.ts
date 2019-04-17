@@ -7,7 +7,7 @@
 
 import program from 'commander';
 import fs from 'mz/fs';
-import run from './lib';
+import { run } from './lib';
 
 async function main() {
     program

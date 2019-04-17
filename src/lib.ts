@@ -29,7 +29,7 @@ async function getAllFiles(p: string, r: string[] = []) {
     return r;
 }
 
-export default async function run(input: string, output: string) {
+export async function run(input: string, output: string) {
     await fs.writeFile(
         output,
         [
