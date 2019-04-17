@@ -60,16 +60,15 @@ async function main() {
         .option('-o, --output <output>', 'Output file')
         .parse(process.argv);
 
-    // if (!program.output || program.args.length < 1) {
-    //     program.outputHelp();
-    //     return;
-    // }
+    if (!program.output || program.args.length < 1) {
+        program.outputHelp();
+        return;
+    }
 
-    // if (!(await fs.exists(program.output))) {
-    //     program.outputHelp();
-    //     return;
-    // }
-
+    if (!(await fs.exists(program.args[0]))) {
+        program.outputHelp();
+        return;
+    }
     run(program.args[0], program.output);
 }
 
