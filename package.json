@@ -1,0 +1,31 @@
+{
+  "name": "warcraft-mergescripts",
+  "version": "0.0.1",
+  "description": "A Warcraft III map script merge tool",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warcraft-iii/warcraft-mergescripts.git"
+  },
+  "keywords": [
+    "WarcraftIII"
+  ],
+  "author": "Dencer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warcraft-iii/warcraft-mergescripts/issues"
+  },
+  "homepage": "https://github.com/warcraft-iii/warcraft-mergescripts#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/mz": "0.0.32",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.3"
+  }
+}
